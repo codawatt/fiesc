@@ -1,0 +1,56 @@
+====================================================================================================
+CALCULATOR  este cryptat cu k= 9  in mesajul:  LJULDUJCXA
+====================================================================================================
+DIGITAL SIGNATURE  este cryptat cu k = 3  in mesajul: GLJLWDO VLJQDWXUH
+====================================================================================================
+WIGYVMXEXIMR JSVQEXMSREPE  este decryptat cu k = 0  in mesajul: WIGYVMXEXIMR JSVQEXMSREPE
+WIGYVMXEXIMR JSVQEXMSREPE  este decryptat cu k = 1  in mesajul: VHFXULWDWHLQ IRUPDWLRQDOD
+WIGYVMXEXIMR JSVQEXMSREPE  este decryptat cu k = 2  in mesajul: UGEWTKVCVGKP HQTOCVKQPCNC
+WIGYVMXEXIMR JSVQEXMSREPE  este decryptat cu k = 3  in mesajul: TFDVSJUBUFJO GPSNBUJPOBMB
+WIGYVMXEXIMR JSVQEXMSREPE  este decryptat cu k = 4  in mesajul: SECURITATEIN FORMATIONALA
+WIGYVMXEXIMR JSVQEXMSREPE  este decryptat cu k = 5  in mesajul: RDBTQHSZSDHM ENQLZSHNMZKZ
+WIGYVMXEXIMR JSVQEXMSREPE  este decryptat cu k = 6  in mesajul: QCASPGRYRCGL DMPKYRGMLYJY
+WIGYVMXEXIMR JSVQEXMSREPE  este decryptat cu k = 7  in mesajul: PBZROFQXQBFK CLOJXQFLKXIX
+WIGYVMXEXIMR JSVQEXMSREPE  este decryptat cu k = 8  in mesajul: OAYQNEPWPAEJ BKNIWPEKJWHW
+WIGYVMXEXIMR JSVQEXMSREPE  este decryptat cu k = 9  in mesajul: NZXPMDOVOZDI AJMHVODJIVGV
+WIGYVMXEXIMR JSVQEXMSREPE  este decryptat cu k = 10  in mesajul: MYWOLCNUNYCH ZILGUNCIHUFU
+WIGYVMXEXIMR JSVQEXMSREPE  este decryptat cu k = 11  in mesajul: LXVNKBMTMXBG YHKFTMBHGTET
+WIGYVMXEXIMR JSVQEXMSREPE  este decryptat cu k = 12  in mesajul: KWUMJALSLWAF XGJESLAGFSDS
+WIGYVMXEXIMR JSVQEXMSREPE  este decryptat cu k = 13  in mesajul: JVTLIZKRKVZE WFIDRKZFERCR
+WIGYVMXEXIMR JSVQEXMSREPE  este decryptat cu k = 14  in mesajul: IUSKHYJQJUYD VEHCQJYEDQBQ
+WIGYVMXEXIMR JSVQEXMSREPE  este decryptat cu k = 15  in mesajul: HTRJGXIPITXC UDGBPIXDCPAP
+WIGYVMXEXIMR JSVQEXMSREPE  este decryptat cu k = 16  in mesajul: GSQIFWHOHSWB TCFAOHWCBOZO
+WIGYVMXEXIMR JSVQEXMSREPE  este decryptat cu k = 17  in mesajul: FRPHEVGNGRVA SBEZNGVBANYN
+WIGYVMXEXIMR JSVQEXMSREPE  este decryptat cu k = 18  in mesajul: EQOGDUFMFQUZ RADYMFUAZMXM
+WIGYVMXEXIMR JSVQEXMSREPE  este decryptat cu k = 19  in mesajul: DPNFCTELEPTY QZCXLETZYLWL
+====================================================================================================
+YZKBKPUHY  este decryptat cu k = 0  in mesajul: YZKBKPUHY
+YZKBKPUHY  este decryptat cu k = 1  in mesajul: XYJAJOTGX
+YZKBKPUHY  este decryptat cu k = 2  in mesajul: WXIZINSFW
+YZKBKPUHY  este decryptat cu k = 3  in mesajul: VWHYHMREV
+YZKBKPUHY  este decryptat cu k = 4  in mesajul: UVGXGLQDU
+YZKBKPUHY  este decryptat cu k = 5  in mesajul: TUFWFKPCT
+YZKBKPUHY  este decryptat cu k = 6  in mesajul: STEVEJOBS
+YZKBKPUHY  este decryptat cu k = 7  in mesajul: RSDUDINAR
+YZKBKPUHY  este decryptat cu k = 8  in mesajul: QRCTCHMZQ
+YZKBKPUHY  este decryptat cu k = 9  in mesajul: PQBSBGLYP
+YZKBKPUHY  este decryptat cu k = 10  in mesajul: OPARAFKXO
+YZKBKPUHY  este decryptat cu k = 11  in mesajul: NOZQZEJWN
+YZKBKPUHY  este decryptat cu k = 12  in mesajul: MNYPYDIVM
+YZKBKPUHY  este decryptat cu k = 13  in mesajul: LMXOXCHUL
+YZKBKPUHY  este decryptat cu k = 14  in mesajul: KLWNWBGTK
+YZKBKPUHY  este decryptat cu k = 15  in mesajul: JKVMVAFSJ
+YZKBKPUHY  este decryptat cu k = 16  in mesajul: IJULUZERI
+YZKBKPUHY  este decryptat cu k = 17  in mesajul: HITKTYDQH
+YZKBKPUHY  este decryptat cu k = 18  in mesajul: GHSJSXCPG
+YZKBKPUHY  este decryptat cu k = 19  in mesajul: FGRIRWBOF
+====================================================================================================
+SI ROK ASPI REW
+====================================================================================================
+VVAIMSYKTJAX
+====================================================================================================
+IFX HFG DD IYCTGYFTWAV
+====================================================================================================
+ACESTAESTEUNTEXTCODIFICAT
+====================================================================================================
+SECURITATEINFORMATIONALA
