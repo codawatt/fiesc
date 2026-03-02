@@ -175,3 +175,4 @@ output_files/
 *.tmp
 *.swp
 .DS_Store
+/oop/template/build.md
