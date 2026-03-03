@@ -1,4 +1,5 @@
 package ro.usv.rf.utils;
+import java.util.Arrays;
 import java.util.Dictionary;
 import java.util.Hashtable;
 import java.util.Map;
@@ -23,10 +24,17 @@ public class MainClass {
 		}
 		
 		Map<Pattern, Integer> patternsMap = StatisticsUtils.getPatternsMapFromInitialSet(patternSet);
+
+        for (Map.Entry<Pattern,Integer> p : patternsMap.entrySet())
+        {
+            System.out.println(p);
+        }
 		
 		
 		double[] weightedAverages = StatisticsUtils.calculateWeightedAverages(patternsMap, numberOfFeatures);
-				
+        System.out.println(Arrays.toString(weightedAverages));
+        double[] dispertion = StatisticsUtils.calculateDispertion(patternsMap, numberOfFeatures);
+        System.out.println(Arrays.toString(dispertion));
 	}
 
 
