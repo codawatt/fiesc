@@ -176,3 +176,27 @@ output_files/
 *.swp
 .DS_Store
 /oop/template/build.md
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# Build output
+/out/
+/build/
+/target/
+
+# Gradle
+.gradle/
+build/
+
+# Maven
+target/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
