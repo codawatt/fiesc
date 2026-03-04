@@ -92,6 +92,17 @@ identificatorul 1700.
 în departament cu date de angajare mai recente și salarii mai mari, ordonati după
 departament.
 
+	SELECT e.last_name
+	FROM employees e
+	WHERE EXISTS 
+	(SELECT e2.last_name
+	FROM employees e2
+	WHERE e.department_id = e2.department_id
+	AND e2.hire_date > e.hire_date
+	AND e2.salary > e.salary)
+	ORDER BY e.department_id;
+	
+	70 rows selected.
 11. Scrieți o interogare care să afișeze numele angajaților care câștigă mai mult decât media
 salariilor din departamentul în care lucrează. Afișați în interogare și media.
 
@@ -150,20 +161,30 @@ numărul de angajați și identificatorul locației.
 
 15. Studiați următorul exemplu și reconstituiți pe baza lui tabelele și coloanele. Ce reprezintă
 acest script? Specificați ce tipuri de JOIN recunoașteți.
-SELECT
-flight.FlightId,
-flight.AirplaneId,
-flight.StartAirportId,
-startairport.Country as StartAirportCountry,
-startairport.City as StartAirportCity,
-flight.EndAirportId,
-endairport.Country as EndAirportCountry,
-endairport.City as EndAirportCity
-FROM Flight flight
-JOIN Airport startairport ON flight.StartAirportId = startairport.AirportId
-JOIN Airport endairport ON flight.EndAirportId = endairport.AirportId
+	SELECT
+	flight.FlightId,
+	flight.AirplaneId,
+	flight.StartAirportId,
+	startairport.Country as StartAirportCountry,
+	startairport.City as StartAirportCity,
+	flight.EndAirportId,
+	endairport.Country as EndAirportCountry,
+	endairport.City as EndAirportCity
+	FROM Flight flight
+	JOIN Airport startairport ON flight.StartAirportId = startairport.AirportId
+	JOIN Airport endairport ON flight.EndAirportId = endairport.AirportId
+
+	Inner JOIN
+
 16. Studiați următorul exemplu și reconstituiți pe baza lui tabelele și coloanele implicate. Ce
 reprezintă acest script? Specificați ce tipuri de JOIN recunoașteți.
+	SELECT b.boat_id, b.boat_name, b.boat_type, count(r.rental_id) as total_rentals
+	FROM boats b, rentals r
+	WHERE b.boat_id = r.boat_id (+)
+	GROUP BY b.boat_id, b.boat_name, b.boat_type
+	ORDER BY total_rentals desc;
+
+	Outer LEFT JOIN
 
 17. Afișați departamentele care au mai mult de 5 angajați cu un salariu peste 5000.
 	SELECT department_id
