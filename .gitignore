@@ -1,18 +1,18 @@
 # =========================
-# C++
+# C / C++
 # =========================
 
-# Compiled Object files
+# Object / compiled files
 *.o
 *.obj
 *.lo
 *.slo
 
-# Precompiled Headers
+# Precompiled headers
 *.gch
 *.pch
 
-# Compiled libraries
+# Libraries
 *.so
 *.dylib
 *.dll
@@ -30,7 +30,10 @@
 *.idb
 *.pdb
 
-# CMake
+# =========================
+# CMake / Build Systems
+# =========================
+
 CMakeFiles/
 CMakeCache.txt
 cmake_install.cmake
@@ -47,35 +50,29 @@ config.status
 libtool
 m4/
 
+# =========================
 # Build directories
+# =========================
+
 build/
 bin/
 obj/
 out/
-
-# IDE files
-.vscode/
-.idea/
-*.swp
-
+target/
+dist/
 
 # =========================
 # Python
 # =========================
 
-# Byte-compiled / optimized / DLL files
+# Bytecode
 __pycache__/
 *.py[cod]
 *$py.class
 
-# C extensions
-*.so
-
-# Distribution / packaging
+# Python packaging
 .Python
-build/
 develop-eggs/
-dist/
 downloads/
 eggs/
 .eggs/
@@ -84,9 +81,9 @@ lib64/
 parts/
 sdist/
 var/
+*.egg
 *.egg-info/
 .installed.cfg
-*.egg
 
 # Virtual environments
 venv/
@@ -98,7 +95,7 @@ ENV/
 pip-log.txt
 pip-delete-this-directory.txt
 
-# Unit test / coverage reports
+# Testing / coverage
 htmlcov/
 .tox/
 .nox/
@@ -107,22 +104,17 @@ htmlcov/
 .cache
 pytest_cache/
 
-# Jupyter Notebook
-.ipynb_checkpoints/
-
 # Type checkers
 .mypy_cache/
 .pyre/
 .pytype/
 
+# Jupyter
+.ipynb_checkpoints/
+
 # Environment variables
 .env
 .env.*
-
-# IDE
-.idea/
-.vscode/
-
 
 # =========================
 # Verilog / HDL
@@ -132,17 +124,18 @@ pytest_cache/
 *.vcd
 *.vvp
 *.vpi
-*.log
-*.jou
 *.wlf
 *.fsdb
+*.jou
+transcript
+vsim.wlf
 
-# Waveform / dump files
+# Waveform / dumps
 *.dump
 *.ghw
 *.vpd
 
-# Synthesis / tool generated
+# Synthesis artifacts
 *.rpt
 *.str
 *.syr
@@ -153,12 +146,8 @@ pytest_cache/
 *.bin
 *.hex
 
-# ModelSim / Questa
+# Tool directories
 work/
-transcript
-vsim.wlf
-
-# Vivado
 .vivado/
 *.runs/
 *.cache/
@@ -170,33 +159,61 @@ db/
 incremental_db/
 output_files/
 
-# General temporary
-*.bak
-*.tmp
-*.swp
-.DS_Store
-/oop/template/build.md
-# IntelliJ IDEA
+# =========================
+# Java / JVM
+# =========================
+
+.gradle/
+*.class
+
+# =========================
+# IDE / Editor
+# =========================
+
 .idea/
+.vscode/
+.vs/
+
+*.swp
 *.iws
 *.iml
 *.ipr
 
-# Build output
-/out/
-/build/
-/target/
-
-# Gradle
-.gradle/
-build/
-
-# Maven
-target/
-
+# =========================
 # Logs
+# =========================
+
 *.log
 
-# OS files
+# =========================
+# OS Files
+# =========================
+
 .DS_Store
 Thumbs.db
+
+# =========================
+# Misc
+# =========================
+
+*.bak
+*.tmp
+
+# =========================
+# .NET
+# =========================
+
+*.user
+*.rsuser
+*.suo
+TestResults/
+*.nupkg
+packages/
+publish/
+
+# =========================
+# Project-specific
+# =========================
+
+/oop/template/build.md
+/palg/helper.md
