@@ -1,0 +1,48 @@
+=========================Ex1=========================
+Matrix:
+['M', 'A', 'L', 'I', 'C']
+['O', 'U', 'S', 'B', 'D']
+['E', 'F', 'G', 'H', 'K']
+['N', 'P', 'Q', 'R', 'T']
+['V', 'W', 'X', 'Y', 'Z']
+Password: MALICIOUS
+
+Original: AUTONOMOUS ATTACK AGENTS
+Encrypted: UFNDVEOESBCPPCDTLFNVQD
+Decrypted: AUTONOMOUSATTACKAGENTS
+=========================Ex2=========================
+Matrix:
+['S', 'E', 'C', 'R', 'T']
+['K', 'Y', 'A', 'B', 'D']
+['F', 'G', 'H', 'I', 'L']
+['M', 'N', 'O', 'P', 'Q']
+['U', 'V', 'W', 'X', 'Z']
+Password: SECRET KEY
+
+Original: THE ART OF PROGRAMMING
+Encrypted: CLCYTSMHXBNHCBPUPFVN
+Decrypted: THEARTOFPROGRAMXMING
+=========================Ex3=========================
+Matrix:
+['P', 'A', 'S', 'W', 'O']
+['R', 'D', 'B', 'C', 'E']
+['F', 'G', 'H', 'I', 'K']
+['L', 'M', 'N', 'Q', 'T']
+['U', 'V', 'X', 'Y', 'Z']
+Password: PASSWORD
+
+Original: RFRBD ONU
+Encrypted: RFRBDONU
+Decrypted: PREDEALX
+=========================Ex4=========================
+Matrix:
+['S', 'E', 'C', 'R', 'T']
+['K', 'Y', 'A', 'B', 'D']
+['F', 'G', 'H', 'I', 'L']
+['M', 'N', 'O', 'P', 'Q']
+['U', 'V', 'W', 'X', 'Z']
+Password: SECRET KEY
+
+Original: RFGPRTPXCQIEKHGRCDRCTCYCESCYXS
+Encrypted: RFGPRTPXCQIEKHGRCDRCTCYCESCYXS
+Decrypted: SIINCRIPTOGRAFIETACEREAESTEAUR
