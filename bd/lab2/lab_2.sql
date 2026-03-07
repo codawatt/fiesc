@@ -172,6 +172,7 @@ WHERE UPPER(last_name) LIKE 'S%';
 9. Afișați angajații cu un salariu total, incluzând bonificațiile, angajaților din
 departamentele 20, 50 și 80. Ordonați crescător după departament și descrescător după
 salariul total.
+
 SELECT employee_id, last_name, first_name, department_id,salary,NVL(commission_pct, 0) AS commission_pct,salary + salary * NVL(commission_pct, 0) AS salariu_total
 FROM employees
 WHERE department_id IN (20, 50, 80)
