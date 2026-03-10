@@ -1,1 +1,24 @@
+/home/dm/Desktop/fiesc/vlsi/lab3/sum.v {1 {vlog -work work -stats=none /home/dm/Desktop/fiesc/vlsi/lab3/sum.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module semi_sumator
+-- Compiling module test_semi_sumator
+-- Compiling module sum_complet
+-- Compiling module test_sum_complet
+-- Compiling module sum
+-- Compiling module test_sum
+-- Compiling module sum_parametru
+-- Compiling module test_sum_parametru
+-- Compiling module sum_4b
+-- Compiling module test_sum_4b
+-- Compiling module sum_sub_4b
+-- Compiling module test_sum_sub_4b
 
+Top level modules:
+	test_semi_sumator
+	test_sum_complet
+	test_sum
+	test_sum_parametru
+	test_sum_4b
+	test_sum_sub_4b
+
+} {} {}}

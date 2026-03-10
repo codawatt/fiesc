@@ -82,5 +82,59 @@ a=7; b=5; cin=0; // 12
 #10 b=10; // 17 = 1001 cout = 1 sum= 001
 end
 endmodule
+//descriere sumator pe 4 biti
+module sum_4b (A,B,Cin,S,Cout);
+input [3:0] A,B;
+input Cin;
+output [3:0] S;
+output Cout;
+//construim circuitul din 4 sumatoare
+wire C0,C1,C2;
+sum S0(A[0],B[0],Cin,S[0],C0);
+sum S1(A[1],B[1],C0,S[1],C1);
+sum S2(A[2],B[2],C1,S[2],C2);
+sum S3(A[3],B[3],C2,S[3],Cout);
+endmodule
 
+module test_sum_4b;
+reg [3:0] A,B;
+reg Cin;
+wire [3:0] S;
+wire Cout;
+sum_4b SUM5 (A,B,Cin,S,Cout);
+initial begin
+A=15; B=15; Cin=1; // 31=11111 Cout=1(16) + S=1111 15
+#10 A=5; B=7; // 13 = 11001 Cout = 0 + S= 1101
+end			//^Cin=1             ^Cin=1
+endmodule
 
+module sum_sub_4b (A,B,CTR,S,Cout);
+input [3:0] A,B;
+
+input CTR;
+output [3:0] S;
+output Cout;
+//construim circuitul din 4 sumatoare
+wire C0,C1,C2;
+wire x0,x1,x2,x3;
+assign x0 = B[0]^CTR;
+assign x1 = B[1]^CTR;
+assign x2 = B[2]^CTR;
+assign x3 = B[3]^CTR;
+sum S0(A[0],x0,CTR,S[0],C0);
+sum S1(A[1],x1,C0,S[1],C1);
+sum S2(A[2],x2,C1,S[2],C2);
+sum S3(A[3],x3,C2,S[3],Cout);
+endmodule
+
+module test_sum_sub_4b;
+reg [3:0] A,B;
+reg CTR;
+wire [3:0] S;
+wire Cout;
+sum_sub_4b SUM6 (A,B,CTR,S,Cout);
+initial begin
+A=13; B=15; CTR=0; 
+#10 A=8; B=8; CTR=1; 
+end			
+endmodule

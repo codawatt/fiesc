@@ -1,0 +1,8 @@
+Numere: 6
+Sir: 5 2 1 6 3 
+Valoarea lipsa v1: 4
+Timp de executie: 170454 ticks
+Valoarea lipsa v2: 4
+Timp de executie: 186256 ticks
+Valoarea lipsa v3: 4
+Timp de executie: 100366 ticks
