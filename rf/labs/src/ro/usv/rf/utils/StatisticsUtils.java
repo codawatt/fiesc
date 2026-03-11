@@ -6,7 +6,7 @@
 //
 //public class StatisticsUtils {
 //
-//	protected static double calculateFeatureAverage(double[] feature)
+//	public static double calculateFeatureAverage(double[] feature)
 //	{
 //		double average = 0.0;
 //		for (int i=0; i<feature.length; i++)
@@ -17,7 +17,7 @@
 //		return average;
 //	}
 //
-//	protected static Map<Pattern, Integer> getPatternsMapFromInitialSet(double[][] patternSet) {
+//	public static Map<Pattern, Integer> getPatternsMapFromInitialSet(double[][] patternSet) {
 //		Map<Pattern, Integer> patternsMap = new HashMap<Pattern, Integer>();
 //		for (int i=0; i<patternSet.length; i++)
 //        {
@@ -86,7 +86,7 @@ import java.util.Map;
 
 public class StatisticsUtils {
 
-    protected static double calculateFeatureAverage(double[] feature) {
+    public static double calculateFeatureAverage(double[] feature) {
         double average = 0.0;
         for (double value : feature) {
             average += value;
@@ -94,7 +94,7 @@ public class StatisticsUtils {
         return average / feature.length;
     }
 
-    protected static Map<Pattern, Integer> getPatternsMapFromInitialSet(double[][] patternSet) {
+    public static Map<Pattern, Integer> getPatternsMapFromInitialSet(double[][] patternSet) {
         Map<Pattern, Integer> patternsMap = new LinkedHashMap<Pattern, Integer>();
         for (double[] row : patternSet) {
             Pattern pattern = new Pattern(Arrays.copyOf(row, row.length));

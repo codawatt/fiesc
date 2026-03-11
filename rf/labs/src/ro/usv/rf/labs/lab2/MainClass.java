@@ -7,7 +7,7 @@
 //public class MainClass {
 //
 //	public static void main(String[] args) {
-//		double[][] patternSet = FileUtils.readLearningSetFromFile("in.txt");
+//		double[][] patternSet = FileUtils.readLearningSetFromFile("in_lab3.txt");
 //		int numberOfPatterns = patternSet.length; // randuri
 //		int numberOfFeatures = patternSet[0].length; // coloane
 //        Dictionary<double[],Integer> weightedMap = new Hashtable<double[], Integer>();
@@ -39,15 +39,18 @@
 //
 //
 //}
-package ro.usv.rf.utils;
+package ro.usv.rf.labs.lab2;
 
+import ro.usv.rf.utils.FileUtils;
+import ro.usv.rf.utils.StatisticsUtils;
+import ro.usv.rf.utils.Pattern;
 import java.util.Arrays;
 import java.util.Map;
 
 public class MainClass {
 
     public static void main(String[] args) {
-        String fileName = args.length > 0 ? args[0] : "in.txt";
+        String fileName = args.length > 0 ? args[0] : "in_lab3.txt";
         double[][] patternSet = FileUtils.readLearningSetFromFile(fileName);
         int numberOfFeatures = patternSet[0].length;
 
