@@ -1,0 +1,5 @@
+n distributie timp_ms
+1000 crescatoare 0.005325
+10000 crescatoare 0.050859
+100000 crescatoare 0.521863
+1000000 crescatoare 3.59229

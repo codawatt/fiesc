@@ -1,0 +1,7 @@
+
+#build
+g++ labtest.cpp -o labtestapp
+
+g++ -std=c++20 -O2 -Wall -Wextra -pedantic labtest.cpp -o labtestapp
+#run 
+./labtestapp
